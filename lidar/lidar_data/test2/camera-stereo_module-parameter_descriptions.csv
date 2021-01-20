@@ -1,0 +1,156 @@
+Time,groups,max.bools,max.ints,max.strs,max.doubles,max.groups,min.bools,min.ints,min.strs,min.doubles,min.groups,dflt.bools,dflt.ints,dflt.strs,dflt.doubles,dflt.groups
+1607014283.9327478,"[name: ""Default""
+type: ''
+parameters: 
+  - 
+    name: ""exposure""
+    type: ""int""
+    level: 0
+    description: ""Depth Exposure (usec)""
+    edit_method: ''
+  - 
+    name: ""gain""
+    type: ""int""
+    level: 0
+    description: ""UVC image gain""
+    edit_method: ''
+  - 
+    name: ""visual_preset""
+    type: ""int""
+    level: 0
+    description: ""Advanced-Mode Preset""
+    edit_method: ""{'enum_description': '', 'enum': [{'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Custom'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Default'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Hand'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 3, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'High Accuracy'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 4, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'High Density'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 5, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Medium Density'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 6, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Remove Ir Pattern'}]}""
+  - 
+    name: ""emitter_enabled""
+    type: ""int""
+    level: 0
+    description: ""Emitter select, 0-disable all emitters, 1-enable laser, 2-enable laser auto (opt),\
+  \ 3-enable LED (opt)""
+    edit_method: ""{'enum_description': '', 'enum': [{'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Laser'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Laser Auto'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Off'}]}""
+  - 
+    name: ""frames_queue_size""
+    type: ""int""
+    level: 0
+    description: ""Max number of frames you can hold at a given time. Increasing this number will reduce\
+  \ frame drops but increase latency, and vice versa""
+    edit_method: ''
+  - 
+    name: ""inter_cam_sync_mode""
+    type: ""int""
+    level: 0
+    description: ""Inter-camera synchronization mode: 0:Default, 1:Master, 2:Slave, 3:Full Salve, 4-258:Genlock\
+  \ with burst count of 1-255 frames for each trigger""
+    edit_method: ''
+  - 
+    name: ""laser_power""
+    type: ""double""
+    level: 0
+    description: ""Manual laser power in mw. applicable only when laser power mode is set to Manual""
+    edit_method: ''
+  - 
+    name: ""enable_auto_exposure""
+    type: ""bool""
+    level: 0
+    description: ""Enable Auto Exposure""
+    edit_method: ''
+  - 
+    name: ""error_polling_enabled""
+    type: ""bool""
+    level: 0
+    description: ""Enable / disable polling of camera internal errors""
+    edit_method: ''
+  - 
+    name: ""output_trigger_enabled""
+    type: ""bool""
+    level: 0
+    description: ""Generate trigger from the camera to external device once per frame""
+    edit_method: ''
+  - 
+    name: ""emitter_on_off""
+    type: ""bool""
+    level: 0
+    description: ""Alternating Emitter Pattern: 0:disabled(default), 1:enabled( emitter is toggled on/off\
+  \ on per-frame basis)""
+    edit_method: ''
+  - 
+    name: ""global_time_enabled""
+    type: ""bool""
+    level: 0
+    description: ""Enable/Disable global timestamp.""
+    edit_method: ''
+  - 
+    name: ""emitter_always_on""
+    type: ""bool""
+    level: 0
+    description: ""Emitter always on mode: 0:disabled(default), 1:enabled.""
+    edit_method: ''
+parent: 0
+id: 0]","[name: ""enable_auto_exposure""
+value: True, name: ""error_polling_enabled""
+value: True, name: ""output_trigger_enabled""
+value: True, name: ""emitter_on_off""
+value: True, name: ""global_time_enabled""
+value: True, name: ""emitter_always_on""
+value: True]","[name: ""exposure""
+value: 165000, name: ""gain""
+value: 248, name: ""visual_preset""
+value: 6, name: ""emitter_enabled""
+value: 0, name: ""frames_queue_size""
+value: 32, name: ""inter_cam_sync_mode""
+value: 258]",[],"[name: ""laser_power""
+value: 360.0]","[name: ""Default""
+state: True
+id: 0
+parent: 0]","[name: ""enable_auto_exposure""
+value: False, name: ""error_polling_enabled""
+value: False, name: ""output_trigger_enabled""
+value: False, name: ""emitter_on_off""
+value: False, name: ""global_time_enabled""
+value: False, name: ""emitter_always_on""
+value: False]","[name: ""exposure""
+value: 1, name: ""gain""
+value: 16, name: ""visual_preset""
+value: 0, name: ""emitter_enabled""
+value: 0, name: ""frames_queue_size""
+value: 0, name: ""inter_cam_sync_mode""
+value: 0]",[],"[name: ""laser_power""
+value: 0.0]","[name: ""Default""
+state: True
+id: 0
+parent: 0]","[name: ""enable_auto_exposure""
+value: True, name: ""error_polling_enabled""
+value: True, name: ""output_trigger_enabled""
+value: False, name: ""emitter_on_off""
+value: False, name: ""global_time_enabled""
+value: True, name: ""emitter_always_on""
+value: False]","[name: ""exposure""
+value: 8500, name: ""gain""
+value: 16, name: ""visual_preset""
+value: 0, name: ""emitter_enabled""
+value: 1, name: ""frames_queue_size""
+value: 16, name: ""inter_cam_sync_mode""
+value: 0]",[],"[name: ""laser_power""
+value: 150.0]","[name: ""Default""
+state: True
+id: 0
+parent: 0]"

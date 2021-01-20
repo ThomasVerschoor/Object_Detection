@@ -1,0 +1,7 @@
+{
+  "name": "Intel Realsense D435 Camera",
+  "description": "The Intel® RealSense™ D435 offers the widest field of view of all our cameras, along with a global shutter on the depth sensor that is ideal for fast moving applications.",
+  "FOV_angle": 60,
+  "resolution_width":800,
+  "resolution_height": 600
+}

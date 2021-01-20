@@ -1,0 +1,26 @@
+cuda installeren op ubuntu!
+kijken of nvidia cuda support! -> versie nakijken, zo nieuwst mogelijke versie die cuda support
+label file: niet txt gebruiken, json file gebruiken! -> zie slack voorbeeld
+zie schema slack
+mogelijkheid houden generiek codeblock uit te voeren
+geen 3d lidar, distance informatie vanop één lijn
+stel bv 1024 punten -> moelijk classificatie, wel clustering etc
+kan bv met standaard algoritme, hoeft niet met neural net
+op manier laag boven andere groepen kunnen request doen
+bv distributed worldmap: die 1, ik wil weten wat dit is..
+liNet: klein neuraal netwerk, dat op MNIST getraind kan worden, input van 28x28, VGG grote netwerken getraind op imagenet(dataset) input images van 224x224: schrijven van generiek blokje dat eender welke image input omzet naar specifieke grootte
+
+per netwerk configfile welke soort preprocessing nodig is, dynamisch maken
+zeker nog eens testen op aparte platformen -> zo generiek mogelijk maken
+implementaties om onnxruntime op andere platformen te hebben
+segmentatie soort van label per pixelmap teruggeven
+gebruik van cuda op jetson nano
+andere libraries voor onnx op edgeTPU
+google runtimes
+nano: tensorRT
+
+snel detectie
+traag detectie
+
+statische objecten: zwaardere detectie
+dynamische: lagere..

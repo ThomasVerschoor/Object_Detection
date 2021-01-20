@@ -1,0 +1,170 @@
+Time,groups,max.bools,max.ints,max.strs,max.doubles,max.groups,min.bools,min.ints,min.strs,min.doubles,min.groups,dflt.bools,dflt.ints,dflt.strs,dflt.doubles,dflt.groups
+1607014587.6342752,"[name: ""Default""
+type: ''
+parameters: 
+  - 
+    name: ""brightness""
+    type: ""int""
+    level: 0
+    description: ""UVC image brightness""
+    edit_method: ''
+  - 
+    name: ""contrast""
+    type: ""int""
+    level: 0
+    description: ""UVC image contrast""
+    edit_method: ''
+  - 
+    name: ""exposure""
+    type: ""int""
+    level: 0
+    description: ""Controls exposure time of color camera. Setting any value will disable auto exposure""
+    edit_method: ''
+  - 
+    name: ""gain""
+    type: ""int""
+    level: 0
+    description: ""UVC image gain""
+    edit_method: ''
+  - 
+    name: ""gamma""
+    type: ""int""
+    level: 0
+    description: ""UVC image gamma setting""
+    edit_method: ''
+  - 
+    name: ""hue""
+    type: ""int""
+    level: 0
+    description: ""UVC image hue""
+    edit_method: ''
+  - 
+    name: ""saturation""
+    type: ""int""
+    level: 0
+    description: ""UVC image saturation setting""
+    edit_method: ''
+  - 
+    name: ""sharpness""
+    type: ""int""
+    level: 0
+    description: ""UVC image sharpness setting""
+    edit_method: ''
+  - 
+    name: ""frames_queue_size""
+    type: ""int""
+    level: 0
+    description: ""Max number of frames you can hold at a given time. Increasing this number will reduce\
+  \ frame drops but increase latency, and vice versa""
+    edit_method: ''
+  - 
+    name: ""power_line_frequency""
+    type: ""int""
+    level: 0
+    description: ""Power Line Frequency""
+    edit_method: ""{'enum_description': '', 'enum': [{'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name':\
+  \ '50Hz'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name':\
+  \ '60Hz'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 3, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Auto'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Disabled'}]}""
+  - 
+    name: ""white_balance""
+    type: ""double""
+    level: 0
+    description: ""Controls white balance of color image. Setting any value will disable auto white\
+  \ balance""
+    edit_method: ''
+  - 
+    name: ""backlight_compensation""
+    type: ""bool""
+    level: 0
+    description: ""Enable / disable backlight compensation""
+    edit_method: ''
+  - 
+    name: ""enable_auto_exposure""
+    type: ""bool""
+    level: 0
+    description: ""Enable / disable auto-exposure""
+    edit_method: ''
+  - 
+    name: ""enable_auto_white_balance""
+    type: ""bool""
+    level: 0
+    description: ""Enable / disable auto-white-balance""
+    edit_method: ''
+  - 
+    name: ""auto_exposure_priority""
+    type: ""bool""
+    level: 0
+    description: ""Restrict Auto-Exposure to enforce constant FPS rate. Turn ON to remove the restrictions\
+  \ (may result in FPS drop)""
+    edit_method: ''
+  - 
+    name: ""global_time_enabled""
+    type: ""bool""
+    level: 0
+    description: ""Enable/Disable global timestamp.""
+    edit_method: ''
+parent: 0
+id: 0]","[name: ""backlight_compensation""
+value: True, name: ""enable_auto_exposure""
+value: True, name: ""enable_auto_white_balance""
+value: True, name: ""auto_exposure_priority""
+value: True, name: ""global_time_enabled""
+value: True]","[name: ""brightness""
+value: 64, name: ""contrast""
+value: 100, name: ""exposure""
+value: 10000, name: ""gain""
+value: 128, name: ""gamma""
+value: 500, name: ""hue""
+value: 180, name: ""saturation""
+value: 100, name: ""sharpness""
+value: 100, name: ""frames_queue_size""
+value: 32, name: ""power_line_frequency""
+value: 0]",[],"[name: ""white_balance""
+value: 6500.0]","[name: ""Default""
+state: True
+id: 0
+parent: 0]","[name: ""backlight_compensation""
+value: False, name: ""enable_auto_exposure""
+value: False, name: ""enable_auto_white_balance""
+value: False, name: ""auto_exposure_priority""
+value: False, name: ""global_time_enabled""
+value: False]","[name: ""brightness""
+value: -64, name: ""contrast""
+value: 0, name: ""exposure""
+value: 1, name: ""gain""
+value: 0, name: ""gamma""
+value: 100, name: ""hue""
+value: -180, name: ""saturation""
+value: 0, name: ""sharpness""
+value: 0, name: ""frames_queue_size""
+value: 0, name: ""power_line_frequency""
+value: 0]",[],"[name: ""white_balance""
+value: 2800.0]","[name: ""Default""
+state: True
+id: 0
+parent: 0]","[name: ""backlight_compensation""
+value: False, name: ""enable_auto_exposure""
+value: True, name: ""enable_auto_white_balance""
+value: True, name: ""auto_exposure_priority""
+value: True, name: ""global_time_enabled""
+value: True]","[name: ""brightness""
+value: 0, name: ""contrast""
+value: 50, name: ""exposure""
+value: 166, name: ""gain""
+value: 64, name: ""gamma""
+value: 300, name: ""hue""
+value: 0, name: ""saturation""
+value: 64, name: ""sharpness""
+value: 50, name: ""frames_queue_size""
+value: 16, name: ""power_line_frequency""
+value: 3]",[],"[name: ""white_balance""
+value: 4600.0]","[name: ""Default""
+state: True
+id: 0
+parent: 0]"

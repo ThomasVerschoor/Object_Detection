@@ -1,0 +1,42 @@
+classifier: checken of object in beeld is of niet, waar hoe niet bij
+--> voldoende voor robot om te kijken of dit voor hem ligt of niet
+--> statische breedbeeldcamera: zijn we niets mee: segmentatie voor gebruiken!
+
+adhv karakteristieken lens uitmaken waar in ruimte dit ligt
+lenstransformaties niet-linair: afstanden meten moeilijk
+
+onze taak: zoveel mogelijk classificeren en detecteren wat voor ons ligt
+met middelen die we hebben zoveel mogelijk kunnen gaan detecteren
+kijken naar mogelijkheden hoe te detecteren
+
+idealiter: iets doen met neuraal netwerk -> Dieter pruning toepassen
+idee classifier gebruiken: enhancer
+
+type object bij blob geven, deze informatie kan weer verder worden gebruikt
+informatie over object geven:
+	- gevoelig
+	- verplaatsen...
+	- gevaren detecteren
+	- creativiteit
+	
+wat is er exact? map creëeren objecten detecteren, hierna verder uitbreiden	
+classificatie met bv sonar later, ander net..
+verschillende alternatieven
+stel: camera valt uit -> overschakelen op andere
+camera werkt: maar besmeurd, te weinig licht...
+topic: classificeren van objecten
+niet bij één neural net houden, meerdere naast elkaar en performance vergelijken
+
+goede vs minder goede classifiers leggen
+segmentation maar bv ook andere gebruiken
+
+
+ONNX labels ontdekken?
+eventueel pytorch model maken, classes extra bovenop opslaan -> in te laden in programma
+onnx
+onnx_classes.txt
+in ONNX model embedden: mogelijkheid
+
+als we in ONNX model gaan embedden: voorzien tool, parse in comments model
+-> echter ONNX standaardmodel, misschien toch maar best afblijven
+-> leuke toevoeging, niet per se nodig: focus op andere

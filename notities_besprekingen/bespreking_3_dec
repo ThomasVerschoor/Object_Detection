@@ -1,0 +1,38 @@
+per algoritme
+automatisch docker containers proberen laten genereren
+image beschrijven in docker file
+kan automatisch worden gegeneerd, 
+voorstel: met parameters werken, images automatisch gegenereerd: preprocessor etc
+output van camera objectdetectie nodig voor worldmap
+clustering van lidar nodig voor worldmap!
+clustering: 2D lidar: deeplearning based niet nuttig
+standaard clustering
+lidar clustering google, methodes voor te vinden
+python versie 3.6
+testen gewoon in terminal
+euclidisch clustering algoritme
+-> zou voldoende zijn
+-> output op een of ander dust topic
+ros lasercan
+dan clusteren & filteren!
+
+nano werken met tensorRT
+Pytorch ook op te draaien
+tensorflow ook
+
+standaard stack maken: inladen preprocessor, postprocessor..; in docker container
+parametriseren in docker containers, juist qua datatype etc
+op elk systeem zorgen dat docker kan draaien
+nvidia cuda docker gebruiken
+cuda in docker te gebruiken, cuda driver geinstalleerd etc
+elke container gebruik van maken, gpu's delen!
+docker file voorbeeld in Slack
+run gaat in container commando uitvoeren
+ros installeren, alles opruimen, zo klein mogelijk
+torch installeren
+docker beter, shell zelf zal op systeem draaien
+clustering die libraries niet nodig
+distributed inference verwacht docker containers om plaatsing in netwerk te doen
+image classification container voor proberen maken
+-> voor jetson; edge; eender welke
+framework dat pre-post en processing zelf voorziet

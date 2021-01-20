@@ -1,0 +1,55 @@
+bespreking 7 december
+
+layers moeten ondersteund worden door tensorflow en andersom, normaal zou het moeten gaan
+
+belangrijk om te weten hoe groot het netwerk in: inschatten of netwerk snel is of niet
+
+nog kijken hoe van onnx naar tflite
+
+stackoverflow.com/questions/53182177/how-do-you-convert-a-onnx-to-tflite
+
+kijken of er tensorflow zelf iets zit voor onnx!
+
+vanaf het in tensorflow zit moet het wel mogelijk zijn om in tflite te krijgen
+
+github.com/onnx/onnx-tensorflow
+
+eerst converteren .TFLiteConverter geen onnx, maar een pb? file!
+
+in convert_tf_to_tflite moet je .pb file inladen, niet .onnx of andere
+Bilal: nakijken tensorflow installatie
+rosbag replay
+in code subscriben op ros
+rvis kunnen we dit visualiseren
+docs.ros.org/en/api/sensor_msgs/html/msg/LaserScan.html
+rosbag play
+wiki.ros.org/rosbag/Commandline
+in ros subscriben
+rosbag play gebruiken
+ros voor communicatie
+in ros veel handige libraries, die clustering al ondersteunen
+ros niet exact gebruiken, maar datatypes behouden -> beste standaard die je kan kiezen
+clusters doorsturen
+clusteren zelf: van een object alle mogelijke punten eruit halen
+postprocessing blokjes toe te voegen met bv minimale, gemiddelde afstanden...
+clusteren en punten van object ter beschikking te hebben
+sensorfusion op verschillende niveau's uit te voeren
+feature-level: in elk van de ruwe data features gaan detecteren, labelen met bounding boxes, clustering met lidar, daarna eventueel met elkaar mappen
+
+wiki.ros.org/ROS/Tutorials
+
+workspace ondersteunt C++ alsook Python
+Package gaan maken (bundel) van nodes
+kiezen of we in c++ of python doen -> python
+wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
+
+Docker & Dust!
+automatisch dockers gaan bouwen op node bv image classificatie op ne coral...
+juiste software blokken in steken, die automatisch geconfigureerd zijn met dust topics etc
+bag files: enkel voor development purposes, luisteren op topics: ruwe data doorsturen, bag file = bundel die kan worden
+communacitie direct via dust
+tutorial ROS via slack!
+-> labo van vorig jaar, basisinitatie van ROS staat erin, vanaf p10 tot 18
+
+TRELLO aanpassen!
+

@@ -1,0 +1,28 @@
+zeker kijken of we op gpu werken! CPU zal standaard veel langer duren
+Testen van GPU op Jetson Nano / Coral!
+Uitlezen van stats bijvoorbeeld mogelijk
+nvidia-smi commando:kijken van processen en hoeveel gpu etc deze gebruiken
+watch -n 1 nvidia-smi :refreshen van commando elke seconde, bijzien van processen dat gpu gebruikt
+programma uitschrijven dat iteratief uitvoeren van netwerk doet, eerste keer zal het altijd wat langer duren
+10x uitvoeren en daar het gemiddelde van nemen
+edge platformen gebruiken! nano minder resources!
+kijken voor edge tpu: blokjes aanpassen voor platform zelf
+Algoritme (post-preprocessing aanpassen)
+trello!
+metingen maken, verifieren gebruik van GPU
+modulariteit inbrengen in programma
+in trello: tabel per deliverable aanmaken, kleine taakjes inplaatsen
+-> donderdag
+lidar op robot zelf: niet 3D, 1 channel terug!
+op een hoogte afstanden meten rondom
+in kitti 16 channels boven elkaar
+moeilijker om detectie uit op te maken
+moeilijker detectie,eerder clustering
+niet bepalen welk object, eerder via bv camera
+type lidar: 
+sensors op robot zelf: Intel® RealSense™ Depth Camera D435: RGBD data, afstanden gokken
+
+Radar: IWR1443BOOST, niet te gebruiken
+Lidar: Hokuyo UST-20LX, op een hoogte rondom ons
+
+preprocessing stappen voor webcam nodig: bv motion blur... framework afhebben, dynamisch blokjes toevoegen bv.

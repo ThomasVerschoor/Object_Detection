@@ -1,0 +1,42 @@
+Time,groups,max.bools,max.ints,max.strs,max.doubles,max.groups,min.bools,min.ints,min.strs,min.doubles,min.groups,dflt.bools,dflt.ints,dflt.strs,dflt.doubles,dflt.groups
+1607014283.916939,"[name: ""Default""
+type: ''
+parameters: 
+  - 
+    name: ""depth_max""
+    type: ""double""
+    level: 0
+    description: ""Maximum depth value (meter) ""
+    edit_method: ''
+  - 
+    name: ""depth_quantization""
+    type: ""double""
+    level: 0
+    description: ""Depth value at which the sensor accuracy is 1 m (Kinect: >75)""
+    edit_method: ''
+  - 
+    name: ""png_level""
+    type: ""int""
+    level: 0
+    description: ""PNG compression level""
+    edit_method: ''
+parent: 0
+id: 0]",[],"[name: ""png_level""
+value: 9]",[],"[name: ""depth_max""
+value: 100.0, name: ""depth_quantization""
+value: 150.0]","[name: ""Default""
+state: True
+id: 0
+parent: 0]",[],"[name: ""png_level""
+value: 1]",[],"[name: ""depth_max""
+value: 1.0, name: ""depth_quantization""
+value: 1.0]","[name: ""Default""
+state: True
+id: 0
+parent: 0]",[],"[name: ""png_level""
+value: 9]",[],"[name: ""depth_max""
+value: 10.0, name: ""depth_quantization""
+value: 100.0]","[name: ""Default""
+state: True
+id: 0
+parent: 0]"

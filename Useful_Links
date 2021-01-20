@@ -1,0 +1,15 @@
+Useful Links:
+
+https://thenewstack.io/tutorial-train-a-deep-learning-model-in-pytorch-and-export-it-to-onnx/
+https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html
+https://docs.nvidia.com/deeplearning/tensorrt/sample-support-guide/index.html#onnx_mnist_sample
+https://developer.nvidia.com/tensorrt
+https://towardsdatascience.com/object-detection-simplified-e07aa3830954
+https://towardsdatascience.com/12-papers-you-should-read-to-understand-object-detection-in-the-deep-learning-era-3390d4a28891
+https://thenewstack.io/tutorial-using-a-pre-trained-onnx-model-for-inferencing/
+
+Image segmentation:
+https://www.analyticsvidhya.com/blog/2019/04/introduction-image-segmentation-techniques-python/
+
+https://github.com/matterport/Mask_RCNN
+https://lilianweng.github.io/lil-log/2017/12/31/object-recognition-for-dummies-part-3.html#speed-bottleneck

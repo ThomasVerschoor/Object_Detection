@@ -1,0 +1,48 @@
+Time,groups,max.bools,max.ints,max.strs,max.doubles,max.groups,min.bools,min.ints,min.strs,min.doubles,min.groups,dflt.bools,dflt.ints,dflt.strs,dflt.doubles,dflt.groups
+1607014283.5708165,"[name: ""Default""
+type: ''
+parameters: 
+  - 
+    name: ""format""
+    type: ""str""
+    level: 0
+    description: ""Compression format""
+    edit_method: ""{'enum_description': 'Enum to set the compression format', 'enum': [{'srcline': 9,\
+  \ 'description': 'JPEG lossy compression', 'srcfile': '/tmp/binarydeb/ros-melodic-compressed-image-transport-1.9.5/cfg/CompressedPublisher.cfg',\
+  \ 'cconsttype': 'const char * const', 'value': 'jpeg', 'ctype': 'std::string', 'type':\
+  \ 'str', 'name': 'jpeg'}, {'srcline': 10, 'description': 'PNG lossless compression',\
+  \ 'srcfile': '/tmp/binarydeb/ros-melodic-compressed-image-transport-1.9.5/cfg/CompressedPublisher.cfg',\
+  \ 'cconsttype': 'const char * const', 'value': 'png', 'ctype': 'std::string', 'type':\
+  \ 'str', 'name': 'png'}]}""
+  - 
+    name: ""jpeg_quality""
+    type: ""int""
+    level: 0
+    description: ""JPEG quality percentile""
+    edit_method: ''
+  - 
+    name: ""png_level""
+    type: ""int""
+    level: 0
+    description: ""PNG compression level""
+    edit_method: ''
+parent: 0
+id: 0]",[],"[name: ""jpeg_quality""
+value: 100, name: ""png_level""
+value: 9]","[name: ""format""
+value: '']",[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]",[],"[name: ""jpeg_quality""
+value: 1, name: ""png_level""
+value: 1]","[name: ""format""
+value: '']",[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]",[],"[name: ""jpeg_quality""
+value: 80, name: ""png_level""
+value: 9]","[name: ""format""
+value: ""jpeg""]",[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]"

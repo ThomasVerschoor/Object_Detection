@@ -1,0 +1,50 @@
+base image = basis
+nodig dat base image over dust gemaakt wordt met topics, communicatieprotocollen...
+-> werk voor distributed inference..
+
+zelf python installeren op base image
+images lokaal op systeem builden!
+
+tf naar tflite conversie:
+manier om te doen: 
+my journey in converting pytorch to tensorflow lite article
+pytorch -> onnx -> tensorflow 
+conversie moest gpu hebben, supertraag model..
+via slack artikel doorgestuurd!  
+
+via dust binnenkrijgen, algoritme copy pasten
+skicat, ondersteunde libraries
+rospy 
+
+kd-tree, werken met x en y! 
+3d point clouds: lidar op bmw komt automatisch xyz uit
+werkt nog steeds 
+
+afstanden tussen punten vinden etc,
+postprocessing blok: subscribe op topic outputs clustering en image
+clusters binnen, matchen tussen beide: coordinaatstelsels overeenkomen, 1:1 op elkaar leggen
+object aan cluster 
+kalibratie aan beide: high level feature: processed data combineren
+cameradata: meerdere objecten, lidar kan dat niet
+combinatie met twee
+
+objecten achter elkaar: niet te zien
+verkeerde clusters kunnen worden doorgestuurd
+
+Dust groep: ook z coordinaat als lidar maar in een hoogte kan werken
+
+
+convert to pcd??? hoe moet output eruit zien?
+pcd extra feature
+clusters id geven, vrij in te vullen
+in ideale case: id tracken op tijd met ruwe clusterdata
+extra minimum afstand, gemiddelde afstand...
+
+modellen inladen voor classificatie
+preprocessing en postprocessing blokjes..
+alles in dockers steken en implementatie
+classificatie: resource efficient AI, ondersteuning voor groep
+
+ 
+
+

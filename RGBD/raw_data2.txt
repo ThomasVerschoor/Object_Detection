@@ -1,0 +1,12 @@
+header:
+  seq: 21
+  stamp:
+    secs: 1607963784
+    nsecs: 438414574
+  frame_id: "camera_depth_optical_frame"
+height: 480
+width: 640
+encoding: "16UC1"
+is_bigendian: 0
+step: 1280
+data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]

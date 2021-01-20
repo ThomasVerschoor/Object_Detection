@@ -1,0 +1,143 @@
+Time,groups,max.bools,max.ints,max.strs,max.doubles,max.groups,min.bools,min.ints,min.strs,min.doubles,min.groups,dflt.bools,dflt.ints,dflt.strs,dflt.doubles,dflt.groups
+1607014587.5839753,"[name: ""Default""
+type: ''
+parameters: 
+  - 
+    name: ""frames_queue_size""
+    type: ""int""
+    level: 0
+    description: ""Max number of frames you can hold at a given time. Increasing this number will reduce\
+  \ frame drops but increase latency, and vice versa""
+    edit_method: ''
+  - 
+    name: ""filter_magnitude""
+    type: ""int""
+    level: 0
+    description: ""Occlusion removal""
+    edit_method: ""{'enum_description': '', 'enum': [{'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Off'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'On'}]}""
+  - 
+    name: ""stream_filter""
+    type: ""int""
+    level: 0
+    description: ""Stream type""
+    edit_method: ""{'enum_description': '', 'enum': [{'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 6, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Accel'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Any'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Color'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 9, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Confidence'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Depth'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 4, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Fisheye'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 7, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Gpio'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 5, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Gyro'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 3, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Infrared'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 8, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Pose'}]}""
+  - 
+    name: ""stream_format_filter""
+    type: ""int""
+    level: 0
+    description: ""Stream format""
+    edit_method: ""{'enum_description': '', 'enum': [{'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 18, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - 6DOF'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - ANY'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 6, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - BGR8'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 8, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - BGRA8'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - DISPARITY16'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 19, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - DISPARITY32'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 21, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - DISTANCE'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 17, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - GPIO_RAW'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 26, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - INVI'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 25, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - INZI'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 22, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - MJPEG'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 15, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - MOTION_RAW'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 16, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - MOTION_XYZ32F'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 11, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - RAW10'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 12, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - RAW16'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 13, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - RAW8'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 5, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - RGB8'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 7, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - RGBA8'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 14, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - UYVY'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 27, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - W10'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 3, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - XYZ32F'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 20, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Y10BPACK'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 24, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Y12I'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 10, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Y16'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 9, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Y8'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 23, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Y8I'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 4, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - YUYV'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Z16'}, {'srcline': 0, 'description': '', 'srcfile': '/does/this/really/matter.cfg',\
+  \ 'cconsttype': 'const int', 'value': 28, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Process - Z16H'}]}""
+  - 
+    name: ""stream_index_filter""
+    type: ""int""
+    level: 0
+    description: ""Stream index""
+    edit_method: ''
+parent: 0
+id: 0]",[],"[name: ""frames_queue_size""
+value: 32, name: ""filter_magnitude""
+value: 2, name: ""stream_filter""
+value: 8, name: ""stream_format_filter""
+value: 28, name: ""stream_index_filter""
+value: 2147483647]",[],[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]",[],"[name: ""frames_queue_size""
+value: 0, name: ""filter_magnitude""
+value: 1, name: ""stream_filter""
+value: 0, name: ""stream_format_filter""
+value: 0, name: ""stream_index_filter""
+value: -1]",[],[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]",[],"[name: ""frames_queue_size""
+value: 16, name: ""filter_magnitude""
+value: 2, name: ""stream_filter""
+value: 2, name: ""stream_format_filter""
+value: 0, name: ""stream_index_filter""
+value: 0]",[],[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]"

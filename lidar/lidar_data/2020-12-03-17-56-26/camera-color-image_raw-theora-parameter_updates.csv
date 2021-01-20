@@ -1,0 +1,9 @@
+Time,bools,ints,strs,doubles,groups
+1607014587.4004474,[],"[name: ""optimize_for""
+value: 1, name: ""target_bitrate""
+value: 800000, name: ""quality""
+value: 31, name: ""keyframe_frequency""
+value: 64]",[],[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]"

@@ -1,0 +1,18 @@
+Time,bools,ints,strs,doubles,groups
+1607014283.5705955,"[name: ""enable_auto_exposure""
+value: True, name: ""error_polling_enabled""
+value: True, name: ""output_trigger_enabled""
+value: False, name: ""emitter_on_off""
+value: False, name: ""global_time_enabled""
+value: True, name: ""emitter_always_on""
+value: False]","[name: ""exposure""
+value: 8500, name: ""gain""
+value: 16, name: ""visual_preset""
+value: 0, name: ""emitter_enabled""
+value: 1, name: ""frames_queue_size""
+value: 16, name: ""inter_cam_sync_mode""
+value: 0]",[],"[name: ""laser_power""
+value: 150.0]","[name: ""Default""
+state: True
+id: 0
+parent: 0]"

@@ -1,0 +1,8 @@
+{
+  "name": "Hokuyu UST-20LX Lidar",
+  "description":"Hokuyo Laser Range Finder Smart-URG mini",
+  "FOV_angle": 270,
+  "points":1081,
+  "angular_resolution": 0.25
+
+}

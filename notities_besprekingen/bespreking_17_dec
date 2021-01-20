@@ -1,0 +1,18 @@
+Afleiden van diepte uit Realsense data -> via foto + diepte coordinaat geven?
+
+https://scikit-learn.org/stable/developers/advanced_installation.html
+
+docker file voor jetson/docker file voor normale cpu ander formaat? 
+gebruik van if else statements die juiste bouwt voor juiste architectuur!
+
+zelf in te vullen: post, pre processing apart opsplitsen, sensorfusion zelf opdelen, blok die camera doet, blok die idar doet, blok die beide subscribet en uitstuurt
+hoe gebeurt communicatie tussen blokken onderling? wss Dust, configuratie moet volledig anders zijn...
+elke microservice die apart beschrijven, gaan distributen.. 
+pre en post kan aparte microservice, zijn, alsook algoritme
+
+simpelste oplossing: ros->dust en omgedraaid..
+minimaal aantal bridges maken
+dat veld in ros = dat veld in dust etc
+
+x en y vanuit camera, z op basis van distributed worldmap
+

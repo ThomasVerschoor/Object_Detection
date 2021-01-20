@@ -1,0 +1,51 @@
+Time,groups,max.bools,max.ints,max.strs,max.doubles,max.groups,min.bools,min.ints,min.strs,min.doubles,min.groups,dflt.bools,dflt.ints,dflt.strs,dflt.doubles,dflt.groups
+1607014283.570607,"[name: ""Default""
+type: ''
+parameters: 
+  - 
+    name: ""left""
+    type: ""int""
+    level: 0
+    description: ""auto-exposure left coordinate""
+    edit_method: ''
+  - 
+    name: ""right""
+    type: ""int""
+    level: 0
+    description: ""auto-exposure right coordinate""
+    edit_method: ''
+  - 
+    name: ""top""
+    type: ""int""
+    level: 0
+    description: ""auto-exposure top coordinate""
+    edit_method: ''
+  - 
+    name: ""bottom""
+    type: ""int""
+    level: 0
+    description: ""auto-exposure bottom coordinate""
+    edit_method: ''
+parent: 0
+id: 0]",[],"[name: ""left""
+value: 639, name: ""right""
+value: 639, name: ""top""
+value: 479, name: ""bottom""
+value: 479]",[],[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]",[],"[name: ""left""
+value: 0, name: ""right""
+value: 0, name: ""top""
+value: 0, name: ""bottom""
+value: 0]",[],[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]",[],"[name: ""left""
+value: 0, name: ""right""
+value: 639, name: ""top""
+value: 0, name: ""bottom""
+value: 479]",[],[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]"

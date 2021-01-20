@@ -1,0 +1,37 @@
+Should be capable of running a number of different model types.
+
+Automatic Docker Build System:
+- network will be distributed as a Docker Container
+
+Profiling: 
+- Inference time
+- Memory use
+- Power use
+
+Segmentatie: die pixel dat..
+Niet enkel focussen op foto’s → lidar…
+Niet altijd zelfde soort netwerk!
+Afhankelijk van taak ander algoritme
+Gewoon classificatie CNN
+Detectie, steeds CNN, maar ander
+segmentatie Encoder/Decoder
+Idealiter voor elk soort netwerk onnx beschrijving: dit netwerk om die taak daar te gaan doen
+
+Preprocessing vooraleer verwerking: config file. Preprocessing block data transformeren vooraleer we het in het netwerk steken
+
+
+alle opdrachten kunnen in eender welke input worden uitgevoerd. Niet dynamisch kunnen switchen
+ONNX runtime library: https://github.com/microsoft/onnxruntime
+PyTorch favor
+https://pytorch.org/hub/nvidia_deeplearningexamples_ssd/
+https://pytorch.org/hub/
+https://github.com/QingyongHu/SoTA-Point-Cloud
+Kitty dataset → lidar
+Waymo dataset
+
+Methodes hoe ze het doen: point based, …
+Pytorch heeft al goede ondersteuning: https://github.com/eriklindernoren/PyTorch-YOLOv3
+ONNX gaan exporteren…
+
+Mogelijk om ONNX te visualiseren: 
+https://github.com/microsoft/onnxruntime

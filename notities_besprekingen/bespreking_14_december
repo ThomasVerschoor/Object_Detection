@@ -1,0 +1,36 @@
+docker! problemen met x86 -> arm64 voor bepaalde imports, nog bespreken met onze coach! om op de jetson nano te runnen
+clustering voltooid: .bag file kan worden ingelezen met rospy op topic, punten worden voor ons nog visueel voorgesteld, maar opgedeeld in # clusters, bounding boxes en gemiddelde afstand
+sensorfusion: straks testen uitvoeren met camera/lidar om fusion tussen onze objectdetectie op camera/video te koppelen tussen de clustering met lidar.
+-> verder afwerken
+dust: probleem met dustpy binding: mensen hier ervaring mee? mqqt paho werkt
+docker communicatie containers voorzien voor iedereen of?
+
+jetson niet zo standaard arm64: iets vinden van nvidia arm64 -> daar ook eens kijken
+https://developer.nvidia.com/blog/announcing-onnx-runtime-for-jetson/
+
+onnx vraagt cuda 10.2, tensorflow cuda 10.1 -> probleem
+https://github.com/microsoft/onnxruntime/tree/master/dockerfiles
+nvidia docker environment wel nodig!
+github.com/NVIDIA/nvidia-docker : laat toe om gpu's te gebruiken in docker
+aanpassing op docker zelf, extension om gpu's te gebruiken -> noice
+denk dockerfile van docker.jetson goede start is!
+
+ngc.nvidia.com/catalog/containers/nvidia:l4t-base
+
+werken met tresholds of number of clusters -> kijken welke dit wel aanvaarden
+minimale en gemiddelde afstand naar object! minimale kan ook afhangen van ruis..
+intel realsense camera d435
+intelrealsense.com/wp-content/uploads/2020/06/Intel-RealSense-D400-Series-Datasheet-June-2020.pdf
+
+lijstje welke algoritmes jullie onderssteunen
+welke modellen, welke features
+faster, yolo tinyyolo.. welke dockercontainers
+
+@Raf Van den Langenbergh
+developer Dust
+
+http://olympus.idlab.uantwepren.be/:5000
+voor docker container zetten
+olympus.idlab.uantwerpen.be:5000/username/containername:tag
+push naar registry via commando docker push
+

@@ -1,0 +1,8 @@
+Time,bools,ints,strs,doubles,groups
+1607014587.6202765,[],"[name: ""jpeg_quality""
+value: 80, name: ""png_level""
+value: 9]","[name: ""format""
+value: ""jpeg""]",[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]"

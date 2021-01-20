@@ -1,0 +1,21 @@
+Time,bools,ints,strs,doubles,groups
+1607014587.400529,"[name: ""backlight_compensation""
+value: False, name: ""enable_auto_exposure""
+value: True, name: ""enable_auto_white_balance""
+value: True, name: ""auto_exposure_priority""
+value: True, name: ""global_time_enabled""
+value: True]","[name: ""brightness""
+value: 0, name: ""contrast""
+value: 50, name: ""exposure""
+value: 166, name: ""gain""
+value: 64, name: ""gamma""
+value: 300, name: ""hue""
+value: 0, name: ""saturation""
+value: 64, name: ""sharpness""
+value: 50, name: ""frames_queue_size""
+value: 16, name: ""power_line_frequency""
+value: 3]",[],"[name: ""white_balance""
+value: 4600.0]","[name: ""Default""
+state: True
+id: 0
+parent: 0]"

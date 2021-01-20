@@ -1,0 +1,58 @@
+Time,groups,max.bools,max.ints,max.strs,max.doubles,max.groups,min.bools,min.ints,min.strs,min.doubles,min.groups,dflt.bools,dflt.ints,dflt.strs,dflt.doubles,dflt.groups
+1607014283.5707896,"[name: ""Default""
+type: ''
+parameters: 
+  - 
+    name: ""optimize_for""
+    type: ""int""
+    level: 0
+    description: ""Try to achieve either 'target_bitrate' or 'quality'""
+    edit_method: ""{'enum_description': 'Enum to control whether optimizing for bitrate or quality',\
+  \ 'enum': [{'srcline': 9, 'description': 'Aim for requested bitrate', 'srcfile':\
+  \ '/tmp/binarydeb/ros-melodic-theora-image-transport-1.9.5/cfg/TheoraPublisher.cfg',\
+  \ 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Bitrate'}, {'srcline': 10, 'description': 'Aim for requested quality', 'srcfile':\
+  \ '/tmp/binarydeb/ros-melodic-theora-image-transport-1.9.5/cfg/TheoraPublisher.cfg',\
+  \ 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name':\
+  \ 'Quality'}]}""
+  - 
+    name: ""target_bitrate""
+    type: ""int""
+    level: 0
+    description: ""Target encoding bitrate, bits per second""
+    edit_method: ''
+  - 
+    name: ""quality""
+    type: ""int""
+    level: 0
+    description: ""Encoding quality""
+    edit_method: ''
+  - 
+    name: ""keyframe_frequency""
+    type: ""int""
+    level: 0
+    description: ""Maximum distance between key frames""
+    edit_method: ''
+parent: 0
+id: 0]",[],"[name: ""optimize_for""
+value: 1, name: ""target_bitrate""
+value: 99200000, name: ""quality""
+value: 63, name: ""keyframe_frequency""
+value: 64]",[],[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]",[],"[name: ""optimize_for""
+value: 0, name: ""target_bitrate""
+value: 0, name: ""quality""
+value: 0, name: ""keyframe_frequency""
+value: 1]",[],[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]",[],"[name: ""optimize_for""
+value: 1, name: ""target_bitrate""
+value: 800000, name: ""quality""
+value: 31, name: ""keyframe_frequency""
+value: 64]",[],[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]"

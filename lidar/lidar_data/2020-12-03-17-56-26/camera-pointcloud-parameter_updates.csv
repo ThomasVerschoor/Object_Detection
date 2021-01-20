@@ -1,0 +1,10 @@
+Time,bools,ints,strs,doubles,groups
+1607014587.400182,[],"[name: ""frames_queue_size""
+value: 16, name: ""filter_magnitude""
+value: 2, name: ""stream_filter""
+value: 2, name: ""stream_format_filter""
+value: 0, name: ""stream_index_filter""
+value: 0]",[],[],"[name: ""Default""
+state: True
+id: 0
+parent: 0]"

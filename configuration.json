@@ -1,0 +1,40 @@
+{
+  "_templates": {
+    "example-template": {
+
+      "transport": {
+        "type": "mqtt",
+        "host": "broker.mqttdashboard.com",
+        "port": 1883
+      }
+    }
+  },
+  "mqtt_publisher": {
+    "links": {
+      "channels": {
+        "publish-mqtt": {
+          "_template": "example-template",
+          "transport": {
+            "publish": true,
+            "topic": "thomas_verschoor",
+            "qos": 0
+          }
+        }
+      }
+    }
+  },
+  "mqtt_subscriber": {
+    "links": {
+      "channels": {
+        "subscribe-mqtt": {
+          "_template": "example-template",
+          "transport": {
+            "publish": false,
+            "topic": "thomas_verschoor",
+            "qos": 0
+          }
+        }
+      }
+    }
+  }
+}
