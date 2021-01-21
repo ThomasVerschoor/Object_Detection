@@ -1,7 +1,11 @@
 import math
 
 from sklearn.cluster import KMeans
+from sklearn.cluster import OPTICS
+from sklearn.cluster import DBSCAN
 from sklearn.cluster import AgglomerativeClustering
+from sklearn.cluster import Birch
+
 import numpy as np
 
 
@@ -27,6 +31,19 @@ class Processor_Clustering:
         elif cluster_model == "agglomerative2":
             dist_treshold = variable
             clustermodel = AgglomerativeClustering(None, distance_threshold=dist_treshold, linkage='single')
+
+        elif cluster_model == "DBSCAN":
+            eps = variable
+            clustermodel = DBSCAN(eps=eps)
+
+        elif cluster_model == "BIRCH":
+            threshold = variable
+            clustermodel = Birch(threshold=threshold)
+
+        elif cluster_model == "OPTICS":
+            maxeps = variable
+            clustermodel = OPTICS(max_eps=maxeps)
+
 
         else:
             print("Cluster Model Error")
@@ -100,7 +117,7 @@ class Processor_Clustering:
             print("Minimal distance to cluster "+str(numbclust)+" : " + str(minimal_distance) + " [m]")
 
             # make bounding box
-            boundingboxes.append([numbclust, minimum_x, minimum_y, maximum_x - minimum_x, maximum_y - minimum_y])
+            boundingboxes.append([numbclust, minimum_x, minimum_y, maximum_x - minimum_x, maximum_y - minimum_y,minimal_distance,mean_distance])
 
 
         return boundingboxes

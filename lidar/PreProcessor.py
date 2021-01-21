@@ -1,4 +1,5 @@
 import csv
+import json
 import math
 import time
 
@@ -10,10 +11,38 @@ class PreProcessor:
     def __init__(self,scaling):
         self.scaling = scaling
 
-    def sendUsingDust(self):
+    def sendUsingDust(self,message):
 
 
-        print("sending using dust")
+        #print("sending using dust "+str(message))
+
+        #print(len(message))
+
+        msgtosend = ""
+
+        for clusters in message:
+            print(clusters[0])
+            numb = '{ "number_of_cluster":'+str(clusters[0])+'}'
+            msg = json.loads(numb)
+            x = {"x":str(clusters[1])}
+            msg.update(x)
+            y = {"y": str(clusters[2])}
+            msg.update(y)
+            w = {"w": str(clusters[3])}
+            msg.update(w)
+            h = {"h": str(clusters[4])}
+            msg.update(h)
+            distme = {"mean_distance": str(clusters[5])}
+            msg.update(distme)
+            distmi = {"mimimal_distance": str(clusters[6])}
+            msg.update(distmi)
+
+            msgtosend = msgtosend + json.dumps(msg)
+            #jason= json.dumps(clusters)
+            #print(jason)
+
+        print(msgtosend)
+
 
         # initialises the core with the given block name and the directory where the modules are located (default "./modules")
         dust = core.Core("mqtt_publisher", "/home/thomas/Github/Object_Detection/modules")
@@ -30,11 +59,14 @@ class PreProcessor:
         # connects all channels
         dust.connect()
 
-        for x in range(10):
+
+
+
+        for x in range(1):
             time.sleep(1)
 
             # declare a bytes-like payload object
-            payload = "bytes_payload".encode("ascii")
+            payload = msgtosend.encode("ascii")
 
             # publishes the payload to the given channel (as defined by the configuration file)
             dust.publish("publish-mqtt", payload)
@@ -47,10 +79,7 @@ class PreProcessor:
         # stops the background thread started by cycleForever() and wait until the thread has finished its tasks before exiting the application
         dust.cycle_stop()
 
-    def receive(arg):
-        #print(arg)
-        print("test")
-        print("Received payload with %d bytes" % len(arg))
+
 
     def receiveUsingDust(self):
         print("Using dust to receive ")
