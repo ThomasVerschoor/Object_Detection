@@ -1,0 +1,40 @@
+{
+  "_templates": {
+    "zmq": {
+      "addons": [
+      ],
+      "transport": {
+        "type": "mqtt",
+        "host": "test.mosquitto.org",
+        "port": 1883,
+        "topic": "testing-grounds",
+        "publish": false,
+        "qos": 2
+      }
+    }
+  },
+  "publisher-block": {
+    "links": {
+      "channels": {
+        "publish-zmq": {
+          "_template": "zmq",
+          "transport": {
+            "publish": true
+          }
+        }
+      }
+    }
+  },
+  "subscriber-block": {
+    "links": {
+      "channels": {
+        "subscription-channel": {
+          "_template": "zmq",
+          "transport": {
+            "publish": false
+          }
+        }
+      }
+    }
+  }
+}
